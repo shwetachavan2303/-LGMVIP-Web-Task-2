@@ -1,0 +1,40 @@
+.Navbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+  }
+  
+  .navart {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   max-height: 200px;
+  }
+  
+  .navsec1 h1 {
+    font-size: 60px;
+    text-align: center;
+    background: -webkit-linear-gradient(red, black, white, blue, green, orange, purple, pink, olive);
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .navsec2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 300;
+  }
